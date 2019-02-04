@@ -1,0 +1,20 @@
+{
+  "name": "react-typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "The minimal React, Webpack, Babel, TypeScript setup without using create-react-app.",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaystd/react-typescript-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kaystd/react-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kaystd/react-typescript-boilerplate#readme"
+}

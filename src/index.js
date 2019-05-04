@@ -1,9 +1,9 @@
 const Component = () => {
-  const element = document.createElement('div')
+    const element = document.createElement('div')
 
-  element.innerHTML = 'Hello, World!'
+    element.innerHTML = 'Hello, World!'
 
-  return element
+    return element
 }
 
 document.body.appendChild(Component())

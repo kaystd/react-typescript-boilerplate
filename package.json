@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/kaystd/react-typescript-boilerplate#readme",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
     "awesome-typescript-loader": "^5.2.1",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",

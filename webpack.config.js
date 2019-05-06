@@ -6,7 +6,7 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: ['awesome-typescript-loader'],
+                loader: 'awesome-typescript-loader',
                 options: {
                     useBabel: true,
                     babelCore: '@babel/core',

@@ -7,3 +7,5 @@ const Component = (outputString: string): HTMLDivElement => {
 }
 
 document.body.appendChild(Component('Hello World!'))
+
+module.hot && module.hot.accept()

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --config webpack.config.js",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "lint": "tslint --config tslint.json 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "source-map-loader": "^0.2.4",
+    "tslint": "^5.16.0",
     "typescript": "^3.4.5",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1"

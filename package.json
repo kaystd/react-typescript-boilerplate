@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-boilerplate",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "The minimal React, Webpack, Babel, TypeScript setup without using create-react-app.",
   "main": "src/index.tsx",
   "scripts": {

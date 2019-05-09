@@ -7,7 +7,8 @@
     "noImplicitAny": true,
     "allowJs": false,
     "noImplicitReturns": true,
-    "jsx": "react"
+    "jsx": "react",
+    "esModuleInterop": true
   },
   "include": [
     "./src/**/*"

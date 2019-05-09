@@ -1,11 +1,10 @@
-import * as React from 'react'
-import * as Enzyme from 'enzyme'
-import * as ReactSixteenAdapter from 'enzyme-adapter-react-16'
+import React from 'react'
+import Enzyme from 'enzyme'
+import ReactSixteenAdapter from 'enzyme-adapter-react-16'
 
 import App from './App'
 
-const adapter = ReactSixteenAdapter as any
-Enzyme.configure({ adapter: new adapter.default() })
+Enzyme.configure({ adapter: new ReactSixteenAdapter() })
 
 describe('App component', () => {
     const wrapper = Enzyme.shallow(<App />)
